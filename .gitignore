@@ -1,0 +1,36 @@
+# Ignore binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Ignore test binaries
+*.test
+
+# Ignore coverage output
+*.out
+
+# Ignore dependency directories
+vendor/
+
+# Ignore Go workspace files
+go.work
+go.work.sum
+
+# Ignore environment file
+.env
+
+# Ignore editor backup files
+.*~
+*.swp
+*.bak
+
+# Ignore build output directories
+/build/
+/bin/
+/pkg/
+
+# Ignore other temporary files
+*.log
+*.tmp
